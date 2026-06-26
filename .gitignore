@@ -1,0 +1,7 @@
+# Project 
+openprinttag-database/
+# Virtual environment
+.venv/
+venv/
+# misc
+.DS_Store
