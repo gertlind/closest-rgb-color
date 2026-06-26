@@ -1,5 +1,6 @@
 # Project 
 openprinttag-database/
+*.csv
 # Virtual environment
 .venv/
 venv/
