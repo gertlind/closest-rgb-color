@@ -78,13 +78,13 @@ def main():
             "type": data.get("type", ""),
             "color": color_hex,
             "url": data.get("url", ""),
-            "file": str(file)
+        #    "file": str(file)
         })
 
     results.sort(key=lambda x: x["distance"])
 
     #print("brand,name,type,color,distance,file")
-    print("brand,name,type,color,distance,url,file")
+    print("brand,name,type,color,distance,url")
 
     for r in results[:max_results]:
         print(
@@ -99,8 +99,8 @@ def main():
             f'{r["type"]},'
             f'{r["color"]},'
             f'{round(r["distance"], 2)},'
-            f'{r["url"]},'
-            f'{r["file"]}'
+            f'{r["url"]}'
+            #f'{r["file"]}'
         )
 
 

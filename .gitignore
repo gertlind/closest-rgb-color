@@ -6,3 +6,5 @@ openprinttag-database/
 venv/
 # misc
 .DS_Store
+*.avif
+*.png
